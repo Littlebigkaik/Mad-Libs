@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>Chinese Dinner</title>
+	 <meta charset="UTF-8">
+	 	 <style>
+        body{
+		        background-color: #80d5ff;
+		    }
+		div {
+				width:500px;
+				height:500px;
+				border:3px solid #000000;
+				color:black;
+				font-weight:bold;
+				text-align:center;
+			}
+		div#form{
+				background: white; /* For browsers that do not support gradients */
+                background: -webkit-linear-gradient(white, #ffffe5); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(white, #ffffe5); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(white, #ffffe5); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(white, #ffffe5); /* Standard syntax */
+                }
+				margin:auto
+			    }
+		h2, h3{
+			    text-align: center;
+			    }
+        label{
+                display: inline-block;
+                float: left;
+                clear: left;
+                width: 250px;
+                text-align: left;
+            }
+        input {
+                display: inline-block;
+                float: right;
+
+
+            }
+        p{
+            text-align:left;
+        }
+	 </style>
+</head>
+<body>
+    <h1>Chinese Dinner</h1>
+    <div id="form"><form action="/chinesestory/" method="POST">
+        <label>Noun: <input type="text" name="noun1"></label><br>
+		<label>Noun: <input type="text" name="noun2"></label><br>
+		<label>Noun: <input type="text" name="noun3"></label><br>
+		<label>Noun: <input type="text" name="noun4"></label><br>
+		<label>Adjective: <input type="text" name="adj1"></label><br>
+		<label>Adjective: <input type="text" name="adj2"></label><br>
+		<label>Adjective: <input type="text" name="adj3"></label><br>
+		<label>Adjective: <input type="text" name="adj4"></label><br>
+		<label>Adjective: <input type="text" name="adj5"></label><br>
+		<label>Name of a celebrity: <input type="text" name="celeb"></label><br>
+		<label>Name of a food: <input type="text" name="food1"></label><br>
+		<label>Name of a food: <input type="text" name="food2"></label><br>
+		<label>Name of a food: <input type="text" name="food3"></label><br>
+        <input type="submit" name="chineselib" value="Get Mad!">
+    </form>
+    </div>
+</body>
+</html>

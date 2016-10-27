@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Computer Speak</title>
+	 <meta charset="UTF-8">
+	 <style>
+        body{
+		        background-color: #80d5ff;
+		    }
+		div {
+				width:500px;
+				height:500px;
+				border:3px solid #000000;
+				color:black;
+				font-weight:bold;
+				text-align:center;
+			}
+		div#form{
+				background: white; /* For browsers that do not support gradients */
+                background: -webkit-linear-gradient(white, #ffffe5); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(white, #ffffe5); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(white, #ffffe5); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(white, #ffffe5); /* Standard syntax */
+                }
+				margin:auto
+			    }
+		h2, h3{
+			    text-align: center;
+			    }
+        label{
+                display: inline-block;
+                float: left;
+                clear: left;
+                width: 250px;
+                text-align: left;
+            }
+        input {
+                display: inline-block;
+                float: right;
+
+
+            }
+        p{
+            text-align:left;
+        }
+	 </style>
+</head>
+<body>
+    <h2>Computer Speak</h2>
+    <div id="form" ><form action="/computerstory/" method="POST">
+        <label>Adjective: <input type="text" name="adj"></label><br>
+		<label>Adverb: <input type="text" name="adverb"></label><br>
+		<label>Noun: <input type="text" name="noun1"></label><br>
+		<label>Noun: <input type="text" name="noun2"></label><br>
+		<label>Noun: <input type="text" name="noun3"></label><br>
+		<label>Noun: <input type="text" name="noun4"></label><br>
+		<label>Noun: <input type="text" name="noun5"></label><br>
+		<label>Noun: <input type="text" name="noun6"></label><br>
+		<label>Plural Noun: <input type="text" name="p_noun1"></label><br>
+		<label>Plural Noun: <input type="text" name="p_noun2"></label><br>
+		<label>Plural Noun: <input type="text" name="p_noun3"></label><br>
+		<label>Plural Noun: <input type="text" name="p_noun4"></label><br>
+		<label>Plural Noun: <input type="text" name="p_noun5"></label><br>
+		<label>Verb: <input type="text" name="verb1"></label><br>
+		<label>Verb: <input type="text" name="verb2"></label><br>
+		<label>Word that Begins with 'M': <input type="text" name="m_word"></label><br>
+        <input type="submit" name="computerlib" value="Get Mad!">
+    </form>
+    </div>
+</body>
+</html>
