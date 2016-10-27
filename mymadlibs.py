@@ -11,11 +11,11 @@ def start_here():
     return render_template("mad.html")
 
 # route to display a simple web page
-@app.route('/chinese/')
+@app.route('/pages/chinese/')
 def chinese():
     return render_template("chinese.html")
 
-@app.route('/chinesestory/', methods=['POST'])
+@app.route('/pages/chinesestory/', methods=['POST'])
 def chinese_story():
     adj1 = request.form.get("adj1")
     adj2 = request.form.get("adj2")
@@ -33,11 +33,11 @@ def chinese_story():
 
 
     return render_template("chinesestory.html", adj1=adj1, adj2=adj2, celeb=celeb, adj3=adj3, noun1=noun1, adj4=adj4, adj5=adj5, noun2=noun2, noun3=noun3, food1=food1, food2=food2, noun4=noun4, food3=food3)
-@app.route('/computer/')
+@app.route('/pages/computer/')
 def computer():
     return render_template("computer.html")
 
-@app.route('/computerstory/', methods = ['POST'])
+@app.route('/pages/computerstory/', methods = ['POST'])
 def computer_story():
     adj = request.form.get("adj")
     adverb = request.form.get("adverb")
